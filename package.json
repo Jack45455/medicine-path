@@ -1,0 +1,12 @@
+{
+  "name": "wendy-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ecstatic": "^4.1.4"
+  },
+  "scripts": {
+    "serve": "ecstatic"
+  }
+}

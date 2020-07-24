@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+html, body{
+  padding: 0px;
+  margin: 0px;
+}
+
+/* TOPBAR STUFF */
+.topbar{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 150px;
+  /* background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), 
+    url('../images/topbar.jpg'); */
+  background-image: url('../images/topbar.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid #444;
+  -webkit-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title-container{
+  flex-grow: 0;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin-left: 20px;
+  padding: 20px;
+  background-color: rgba(255,255,255,0.2);
+  font-size: 48px;
+  border-radius: 20px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.topbar-filler{
+  flex-grow: 1;
+}
+
+.menu-container{
+  flex-grow: 0;
+}
+
+.menu {
+  margin-right: 20px;
+  padding: 20px;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 18px;
+}
+
+.menu aside {
+  width: 40px;
+  text-align: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* CONTENT STUFF */
+.content-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #e5e5ff;
+}
+
+.content-padding {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 70%;
+}
+
+.content {
+  height: 3000px;
+  border: 1px solid #999;
+  box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.4);
+  background-color: #fff;
+  padding: 40px;
+}
+

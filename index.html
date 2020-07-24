@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/site.css"/>
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="title-container">
+        <div class="title">
+          Medicine Path
+        </div>
+      </div>
+      <div class="topbar-filler">
+      </div>
+      <div class="menu-container">
+        <div class="menu">
+          <div class="home_link">
+            <a href="..\Homepage\index.html">
+              Home
+            </a>
+          </div>
+          <aside>
+            •    
+          </aside>
+          <div class="home_link">
+            <a href="..\Medicine-Wheel\index.html">
+              Medicine Wheel 
+            </a>
+          </div>
+          <aside>
+            •    
+          </aside>
+          <div class="home_link">
+            <a href="..\Individual-Healing\index.html">
+              Individual Healing  
+            </a>
+          </div>
+          <aside>
+            •    
+          </aside>
+          <div class="home_link">
+            <a href="..\Medicine-Circles\index.html">
+              Medicine Circles
+            </a>
+          </div>
+          <aside>
+            •    
+          </aside>
+          <div class="home_link">
+            <a href="..\Contact\index.html">
+              Contact 
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Homepage Slideshow -->
+
+      <div class="slideshow-container">
+        <img class="slideshow-image" 
+          src="https://images.unsplash.com/photo-1568805711851-472fd6c66dc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80">
+        <img class="slideshow-image" 
+          src="https://images.unsplash.com/photo-1533575174198-b21b132b5a93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1069&q=80">
+        <img class="slideshow-image" 
+          src="https://images.unsplash.com/photo-1531112230711-290f99a832af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+        <img class="slideshow-image" 
+          src="https://images.unsplash.com/photo-1509839914329-d4beac94085f?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80">
+        <img class="slideshow-image" 
+          src="https://images.unsplash.com/photo-1438211891462-006dc8998ef1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80">
+      </div>
+
+
+
+        <!-- 
+        <img class="slideshow-image" 
+        src="img_chicago.jpg"
+         style="width:100%">
+        -->
+
+      <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var imageArray = document.getElementsByClassName("slideshow-image");
+          for (i = 0; i < imageArray.length; i++) {
+            var image = imageArray[i]
+            image.style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > imageArray.length) {myIndex = 1}
+          imageArray[myIndex-1].style.display = "block";
+          setTimeout(carousel, 1000)
+        }
+      </script>
+      
+    <div class="content-container">
+      <div class="content-padding">
+        <div class="content">
+          <div class="content-text">
+            Medicine wheel technique and healing circles, exploring and utilizing ancient wisdom of the shamanic healers of the Quru lineage. 
+            <hr>
+            Our relationship with the Earth, ourselves and our community are crucial to our health and well-being, the Medicine Wheel offers beautiful 
+            and potential methods for a creative balance and the right relationships with our being. 
+            <hr>
+            As we focus on creating harmony within; this way the method extends to create harmony within our relationships, our creativity, and cognizance. 
+            <hr>
+            The Quru teaches that we all have to remember our luminous rainbow bodies and that the souls' purpose on our earthly journey is to un-condition 
+            itself back to the source, this is the hero's journey of the soul which we all must take. 
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+ <!-- 
+        <div class="content">
+        <div class="widget-container">
+          <div class="home-description">
+            Medicine wheel technique and healing circles, exploring and utilizing ancient wisdom of the shamanic healers of the Quru lineage. 
+
+            Our relationship with the Earth, ourselves and our community is crucial to our health and well-being, the Medicine Wheel offers beautiful 
+            and potential methods for a creative balence and the right relationships with our own being. As we focus in creative harmony within; this by 
+            1111 way method extends to create harmony within our relationships, our creativity and 1111. 
+      
+            The Quru teach that we all have to remember our luminous rainbow bodies and that the souls' purpose on our earthly journey is to uncondition 
+            itself back to source, this is the hero's journey of the soul which we all must take. 
+          </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>
+        Details: 1111
+        Email: 1111
+        Location: 1111
+        Buisness Phone: 1111
+        (Personal details can be asked for via the email displayed.)
+      </p>
+    </div>
+      </div>
+        <div class="typewriter">
+          <h1>
+            The Healing Path provides spritiually mediticinal methods; to heal your 
+            mind, body and spirit. 
+          </h1>
+        -->
