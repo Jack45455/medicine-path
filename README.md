@@ -45,6 +45,6 @@ RESEARCH:
 - Website layouts in a shamonic context 
 
 TO DO:
-- Home Page
-- Figure it out 
-- make multiple templates and send via email (jacktaylor9768)
+- Home Page structure
+- Medicine Wheel "wheel"  
+- make multiple templates and send via email 

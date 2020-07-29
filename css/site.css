@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
 
 html, body {
   height: 100%;
@@ -70,9 +70,13 @@ html, body {
 }
 
 .menu a {
-  text-decoration: none;
+ /* 
+  text-decoration: none; 
   color: #000;
   font-family: 'Roboto Mono', monospace;
+*/
+  font-family: 'Rowdies', cursive;
+  font-size: larger;
 }
 
 /* HOMPAGE STUFF */
@@ -112,9 +116,11 @@ html, body {
 }
 
 .content-text {
-  font-family: 'Modak', cursive;
+  font-family: 'Rowdies', cursive;
   font-size: larger;
+  display: flex;
 }
+
 
 /* MEDICINE WHEEL CONTENT STUFF */
 
