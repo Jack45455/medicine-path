@@ -69,11 +69,9 @@ html, body {
   text-align: center;
 }
 
-.menu a {
-  text-decoration: none; 
+.menu-bar-headings{ 
   color: #000;
   font-family: 'Roboto Mono', monospace;
-  font-family: 'Rowdies', cursive;
   font-size: larger;
 }
 

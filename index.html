@@ -11,13 +11,15 @@
           Medicine Path
         </div>
       </div>
-      <div class="topbar-filler">
+      <div class="topbar-filler"> 
       </div>
       <div class="menu-container">
         <div class="menu">
           <div class="home_link">
             <a href=".">
+              <div class="menu-bar-headings">
               Home
+              </div>
             </a>
           </div>
           <aside>
@@ -25,7 +27,9 @@
           </aside>
           <div class="home_link">
             <a href="./Medicine-Wheel">
-              Medicine Wheel 
+              <div class="menu-bar-headings">
+                Medicine Wheel 
+              </div>
             </a>
           </div>
           <aside>
@@ -33,7 +37,9 @@
           </aside>
           <div class="home_link">
             <a href="./Individual-Healing">
-              Individual Healing  
+              <div class="menu-bar-headings">
+                Individual Healing  
+              </div>
             </a>
           </div>
           <aside>
@@ -41,7 +47,9 @@
           </aside>
           <div class="home_link">
             <a href="./Medicine-Circles">
-              Medicine Circles
+              <div class="menu-bar-headings">
+                Medicine Circles
+              </div>
             </a>
           </div>
           <aside>
@@ -49,7 +57,9 @@
           </aside>
           <div class="home_link">
             <a href="./Contact">
-              Contact 
+              <div class="menu-bar-headings">
+                Contact 
+              </div>
             </a>
           </div>
         </div>
@@ -58,43 +68,38 @@
   
     <!-- Homepage Slideshow -->
 
-      <div class="slideshow-container">
-        <img class="slideshow-image" 
-          src="https://images.unsplash.com/photo-1568805711851-472fd6c66dc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80">
-        <img class="slideshow-image" 
-          src="https://images.unsplash.com/photo-1533575174198-b21b132b5a93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1069&q=80">
-        <img class="slideshow-image" 
-          src="https://images.unsplash.com/photo-1531112230711-290f99a832af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
-        <img class="slideshow-image" 
-          src="https://images.unsplash.com/photo-1509839914329-d4beac94085f?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80">
-        <img class="slideshow-image" 
-          src="https://images.unsplash.com/photo-1438211891462-006dc8998ef1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80">
-      </div>
-
-    <!--  COPY TO CHANGE IMAGE
-    <img class="slideshow-image" 
-    src="img_chicago.jpg"
-      style="width:100%"> -->
+    <div class="slideshow-container">
+      <img class="slideshow-image" 
+        src="https://images.unsplash.com/photo-1568805711851-472fd6c66dc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80">
+      <img class="slideshow-image" 
+        src="https://images.unsplash.com/photo-1533575174198-b21b132b5a93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1069&q=80">
+      <img class="slideshow-image" 
+        src="https://images.unsplash.com/photo-1531112230711-290f99a832af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+      <img class="slideshow-image" 
+        src="https://images.unsplash.com/photo-1509839914329-d4beac94085f?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80">
+      <img class="slideshow-image" 
+        src="https://images.unsplash.com/photo-1438211891462-006dc8998ef1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80">
+    </div>
 
     <!--  Image Slideshow-->
 
-      <script>
-        var myIndex = 0;
-        carousel();
-        
-        function carousel() {
-          var i;
-          var imageArray = document.getElementsByClassName("slideshow-image");
-          for (i = 0; i < imageArray.length; i++) {
-            var image = imageArray[i]
-            image.style.display = "none";  
-          }
-          myIndex++;
-          if (myIndex > imageArray.length) {myIndex = 1}
-          imageArray[myIndex-1].style.display = "block";
-          setTimeout(carousel, 1000)
+    <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var imageArray = document.getElementsByClassName("slideshow-image");
+        for (i = 0; i < imageArray.length; i++) {
+          var image = imageArray[i]
+          image.style.display = "none";  
         }
-      </script>
+        myIndex++;
+        if (myIndex > imageArray.length) {myIndex = 1}
+        imageArray[myIndex-1].style.display = "block";
+        setTimeout(carousel, 1000)
+      }
+    </script>
       
     <div class="content-container">
       <div class="content-padding">
