@@ -46,5 +46,6 @@ RESEARCH:
 
 TO DO:
 - Home Page structure
+  - Bottom Bar 
 - Medicine Wheel "wheel"  
-- make multiple templates and send via email 
+- Make multiple templates 
