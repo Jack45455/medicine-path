@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../css/site.css" />
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="topbar">
@@ -67,19 +71,28 @@
     </div>
     <div class="content-container">
       <div class="content-padding">
+        <div class="content medicine-wheel">
+          <img src="/images/medicine-wheel.png" />
+        </div>
+
         <div class="content">
           <div class="content-text">
+
+            <a name="north"><h4>North</h4></a>
             The Medicine Wheel is a profound journey encompassing the 4 directions, 
             beginning in the South, to examine and unbind ourselves from personal listing and stories. 
             Beginning to loosen energy trapped between the ethereal bodies, freeing ourselves from rigid structures and self-limiting behaviours. 
             In this direction, we explain the path of beauty, with the archetypal energy of Serpent, are the foundation rights. 
             <hr>
+            <a name="south"><h4>South</h4></a>
             In the North, we surrender the roles that have defined us and begin to reclaim our power through soul retrieval and exploring new territory, embracing the situations and tranquillity of the soul.
             We beam to him cautiously and embrace beginners making the impossible possible. Here we journey with Humming Bird and the wisdom keeper or Atlomesauek, reclaiming the inherent wisdom of the sacred mountain which holds our place at the fire.
             <hr> 
+            <a name="east"><h4>East</h4></a>
             In the East, we die to our old way of being, completely, exploring this gift through the old self and sowing the seeds of our new found beauty into being. 
             Here we work with the eagle and walk this wiser faith.  
             <hr>
+            <a name="west"><h4>West</h4></a>
             Harmoney rights receiving seven seeds of archetypal forces, within our Chakra system.
             Enabling us to begin creative harmony within ourselves on all levels. 
             The Seers' rights, which enable us to see the unseen with ourselves and the world, in the west direction we explore our Shadow. 
@@ -89,6 +102,52 @@
         </div>
       </div>
     </div>
+
+    <script>
+      function rotate(cx, cy, x, y, angle) {
+          var radians = (Math.PI / 180) * angle,
+              cos = Math.cos(radians),
+              sin = Math.sin(radians),
+              nx = (cos * (x - cx)) + (sin * (y - cy)) + cx,
+              ny = (cos * (y - cy)) - (sin * (x - cx)) + cy;
+          return [nx, ny];
+      }
+
+      $('.medicine-wheel img').click(function(e) {
+        var img = $('.medicine-wheel img')
+        var width = img.width()
+        var height = img.height()
+        var centerX = width / 2
+        var centerY = height / 2
+        var x = e.originalEvent.offsetX
+        var y = e.originalEvent.offsetY
+        var rotated = rotate(centerX, centerY, x, y, -45)
+        var rotatedX = rotated[0]
+        var rotatedY = rotated[1]
+
+        var leftOptions = ['west', 'south']
+        var rightOptions = ['north', 'east']
+
+        var leftRightOptions = rotatedX > centerX ?
+          rightOptions :
+          leftOptions
+
+        var finalOption = rotatedY > centerY ?
+          leftRightOptions[1] :
+          leftRightOptions[0]
+
+        console.log(finalOption)
+
+        
+        // console.log({
+        //   x,
+        //   y,
+        //   rotX: rotated[0],
+        //   rotY: rotated[1],
+        // })
+      
+      })
+    </script>
   </body>
 </html>
 

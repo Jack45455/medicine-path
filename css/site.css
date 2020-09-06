@@ -121,9 +121,18 @@ html, body {
 .content-text {
   font-family: 'Rowdies', cursive;
   font-size: larger;
-  display: flex;
   word-spacing: 20px;
 }
+
+.medicine-wheel {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.medicine-wheel img {
+  cursor: pointer;
+}
+
 
 
 /* MEDICINE WHEEL CONTENT STUFF */
