@@ -26,6 +26,8 @@ Now you can open the website on http://localhost:8000
 
 ### Push site live to github
 
+The site is hosted at: https://jack45455.github.io/medicine-path/
+
 First - open the terminal (View -> Terminal).
 
 Type the following:
