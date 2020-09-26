@@ -51,3 +51,12 @@ TO DO:
   - Bottom Bar 
 - Medicine Wheel "wheel"  
 - Make multiple templates 
+
+
+### Domain
+
+ * medicinepath.co.uk
+ * medicinepathwendy.com
+ * medicinepath.uk
+ * medicinepath.info
+ * medicinepath.space
