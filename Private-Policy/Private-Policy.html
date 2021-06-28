@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/site.css" />
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="title-container">
+        <div class="title">
+          Shamanic Medicine Path
+        </div>
+      </div>
+      <div class="topbar-filler"> 
+      </div>
+      <div class="menu-container">
+        <div class="menu">
+          <div class="home_link">
+            <a href="..">
+              <div class="menu-bar-headings">
+              Home
+              </div>
+            </a>
+          </div>
+          <aside>
+            •    
+          </aside>
+          <div class="home_link">
+            <a href="../Medicine-Wheel">
+              <div class="menu-bar-headings">
+                Medicine Wheel 
+              </div>
+            </a>
+          </div>
+          <aside>
+            •    
+          </aside>
+          <div class="home_link">
+            <a href="../Individual-Healing">
+              <div class="menu-bar-headings">
+                Individual Healing  
+              </div>
+            </a>
+          </div>
+          <aside>
+            •    
+          </aside>
+          <div class="home_link">
+            <a href="../Medicine-Circles">
+              <div class="menu-bar-headings">
+                Medicine Circles
+              </div>
+            </a>
+          </div>
+          <aside>
+            •    
+          </aside>
+          <div class="home_link">
+            <a href="../Contact">
+              <div class="menu-bar-headings">
+                Contact 
+              </div>
+            </a>
+          </div>
+          <aside>
+            •    
+          </aside>
+          <div class="home_link">
+            <a href="../Private-Policy">
+              <div class="menu-bar-headings">
+                Private Policy
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-container">
+      <div class="content-padding">
+
+        
+        <div class="content medicine-wheel">
+          <div class="postit">
+            Click on each section in the Medicine Wheel to read more...
+          </div>
+          <img src="../images/medicine-wheel.png" />
+        </div>
+        
+        <div class="content" style="margin-top: 50px;">
+          <div class="content-text medicine-wheel-text">
+            <p>
+              The Medicine Wheel is a profound journey travelling through the four directions.
+            </p>
+            
+            <a name="south"></a>
+            <div style="height:40px;"></div>
+            <h4>South</h4>
+            <p>
+              <img src="../images/medicine-wheel/serpent.jpg"/>
+            </p>
+            In The South we explore our personal history and begin to ‘ unbind’ ourselves from The stories that limit and restrict us. We challenge our old identity  and the rigid structures and self limiting behaviour patterns which keep us small. We begin to loosen energy held in the etheric  bodies and create space for something new to manifest. We remember the path of beauty and connect with the archetypal energy of Serpent.
+            The foundation rites of passage are gifted in the South direction,
+            <hr />
+            <a name="west"><h4>West</h4></a>
+            <p>
+              <img src="../images/medicine-wheel/jaguar.jpg"/>
+            </p>
+            In the West we explore our shadow, karma, and Ancestral history . We begin to reduce the momentum of the past and free ourselves from it’s weight and influence. We allow ourselves to surrender old beliefs and karmic burdens  that no longer serve us. Honouring our Ancestors, hearing their voices and receiving their gifts , we free them and ourselves to move forward towards and fulfil our true destiny. We remember the path of the luminous warrior and connect with the archetypical energy of Jaguar.
+            The rites of pampamisayuk are gifted in the West. 
+            <a name="north"><h4>North</h4></a>
+            <p>
+              <img src="../images/medicine-wheel/humming-bird.jpg"/>
+            </p>
+            In the North we surrender the roles that have defined us and begin to reclaim our power.  We explore new possibilities and embrace the beauty and simplicity of our soul energy, connecting to the true joy, sweetness and nectar of life. As we move into stillness and embrace ‘beginner’s mind’ we begin to make the ‘ The Hero’s journey ‘ of the soul. Making the impossible, possible.
+            We journey with integrity to reclaim the wisdom of The sacred Mountains as we surrender to the archetypal energy of Hummingbird.
+            The rites of Altumisayuk are gifted in The North.            
+            <hr />
+            <a name="east"><h4>East</h4></a>
+            <p>
+              <img src="../images/medicine-wheel/eagle.jpg"/>
+            </p>
+            In The East we are called to transcend our old stories and beliefs and are invited to die to our old way of being in the world. We are reminded that life is not ‘ personal ‘ and limited to form. We reconnect to the vast formless realm of consciousness which is our true being. Here we remember that there is always a bigger picture and that we are participating in creation on a global and cosmic level. We journey into pure consciousness and source our new becomings from the realm of spirit. Soaring with the archetypal energy of Eagle,  we are offered the opportunity to live from our Hearts. Here we can dream a new world into being as we fly wing tip to wing tip with Great Spirit.
+            The rites of koyakakoyak are gifted in the East.  
+            <hr />      
+        </div>
+
+  
+      </div>
+
+      <div class="content-padding" style="width: 100%;">
+        <div class="content"> 
+          <div class="content-text"> 
+            <div class="footer">
+              Name: Wendy Davison
+              <hr>
+              Email: ShamanicMedicinePath@gmail.com 
+              Mobile Number: 07553845094
+              Location: England, Hampshire, Petersfield
+            </div>                                    
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+
+     
+    <script>
+      function rotate(cx, cy, x, y, angle) {
+          var radians = (Math.PI / 180) * angle,
+              cos = Math.cos(radians),
+              sin = Math.sin(radians),
+              nx = (cos * (x - cx)) + (sin * (y - cy)) + cx,
+              ny = (cos * (y - cy)) - (sin * (x - cx)) + cy;
+          return [nx, ny];
+      }
+
+      $('.medicine-wheel img').click(function(e) {
+        var img = $('.medicine-wheel img')
+        var width = img.width()
+        var height = img.height()
+        var centerX = width / 2
+        var centerY = height / 2
+        var x = e.originalEvent.offsetX
+        var y = e.originalEvent.offsetY
+        var rotated = rotate(centerX, centerY, x, y, -45)
+        var rotatedX = rotated[0]
+        var rotatedY = rotated[1]
+
+        var leftOptions = ['west', 'south']
+        var rightOptions = ['north', 'east']
+
+        var leftRightOptions = rotatedX > centerX ?
+          rightOptions :
+          leftOptions
+
+        var finalOption = rotatedY > centerY ?
+          leftRightOptions[1] :
+          leftRightOptions[0]
+
+        document.location.hash = '#' + finalOption
+      })
+    </script>
+  </body>
+</html>
+
+
