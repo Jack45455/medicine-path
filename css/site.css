@@ -244,6 +244,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', end
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .headline-image img {
