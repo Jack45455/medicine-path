@@ -55,8 +55,6 @@ TO DO:
 
 ### Domain
 
- * medicinepath.co.uk
  * medicinepathwendy.com
+ * wendymedicinepath.com
  * medicinepath.uk
- * medicinepath.info
- * medicinepath.space
